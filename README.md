@@ -18,16 +18,17 @@ Areas for improvement:
 2. Optional: set up a virtual environment
 
    ```bash
-   python -m venv ~/.venv/acarsparse
+   python3 -m venv ~/.venv/acarsparse
    source ~/.venv/acarsparse/bin/activate
    python3 -m pip install --upgrade pip setuptools wheel
    ```
 
 3. Install required libraries: `python3 -m pip install -r requirements.txt`
-4. Copy `config-default.json` to `config.json`
-5. Edit `config.json` to map to your ACARS Hub ACARS and VDLM2 socket ports
-6. Copy `logging-default.yml` to `logging.yml`
-7. `cd acarsparse && python3 AcarsParse.py` 
+4. `cd acarsparse`
+5. Copy `config-default.json` to `config.json`
+6. Edit `config.json` to map to your ACARS Hub ACARS and VDLM2 socket ports
+7. Copy `logging-default.yml` to `logging.yml`
+8. `python3 AcarsParse.py`
 
 ## Configuration details
 
