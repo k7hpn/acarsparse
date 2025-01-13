@@ -1,0 +1,15 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools >= 61.0"]
+
+[project]
+authors = [{ name = "Harald Nagel", email = "dev@hpn.is" }]
+dependencies = ["aiofiles", "httpx", "seqlog"]
+description = "Read ACARS/VDL-M2 data from a TCP JSON stream and detect drama"
+dynamic = ["version"]
+name = "acarsparse"
+readme = "README.md"
+requires-python = ">=3.8"
+
+[tool.setuptools.dynamic]
+version = { attr = "acarsparse.__version__" }

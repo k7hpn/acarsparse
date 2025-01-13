@@ -1,0 +1,21 @@
+{
+  "sources": [
+    {
+      "host": "127.0.0.1",
+      "name": "ACARS",
+      "port": 15550
+    },
+    {
+      "host": "127.0.0.1",
+      "name": "VDLM2",
+      "port": 15555
+    }
+  ],
+  "logconfig": "logging.yml",
+  "webhooks": [
+    {
+      "type": "discord",
+      "url": "https://discord.com/api/webhooks/..."
+    }
+  ]
+}
